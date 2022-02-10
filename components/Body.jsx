@@ -24,7 +24,7 @@ function Body({ weatherData }) {
           <span className="badge bg-info text-dark">{countryName}</span>
         </div>
         <div className="ms-auto d-flex align-items-center flex-column w-state">
-          <img src={src} alt="" className="img" />
+          <img src={src} alt="Weather State Image" className="img" />
           <h4 className="text-light">{cityState}</h4>
         </div>
       </div>
