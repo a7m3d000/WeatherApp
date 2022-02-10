@@ -36,7 +36,7 @@ function Input({ onInput }) {
         }
 
         input:focus {
-          box-shadow: 0 0 0 0.28rem var(--input-shadow-color);
+          box-shadow: 0 0 0 0.25rem var(--input-shadow-color);
         }
 
         input::placeholder {
@@ -46,7 +46,7 @@ function Input({ onInput }) {
         }
 
         button {
-          padding: 0.55em 1.3em;
+          padding: 0.60em 1.3em;
           background-color: var(--search-btn-background-color);
           color: #fff;
           font-weight: 500;
