@@ -17,17 +17,20 @@ function Body({ weatherData }) {
           <span className="badge bg-info text-dark">{countryName}</span>
         </div>
         <div className="ms-auto d-flex align-items-center flex-column w-state">
-          <Image
-            className="img"
-            src={
-              weatherData.error
-                ? "./error-icon.png"
-                : weatherData.weather[0].icon === "none"
-                ? "./state-icon.png"
-                : `http://openweathermap.org/img/wn/${icon}@2x.png`
-            }
-            alt="Weather State Icon"
-          />
+          <div className="img">
+            <Image
+              src={
+                weatherData.error
+                  ? "/error-icon.png"
+                  : weatherData.weather[0].icon === "none"
+                  ? "/state-icon.png"
+                  : `http://openweathermap.org/img/wn/${icon}@2x.png`
+              }
+              alt="Weather State Icon"
+              width={120}
+              height={120}
+            />
+          </div>
           <h4 className="text-light">{cityState}</h4>
         </div>
       </div>
