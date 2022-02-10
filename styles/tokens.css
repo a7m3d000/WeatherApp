@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --primary-color: rgb(134, 1, 243);
+  --input-color: #9000f0d8;
+  --input-placeholder-color: #9900ffbe;
+  --input-shadow-color: #8ba2c64f;
+  --search-btn-background-color: #ff0087e6;
+  --search-btn-border-color: #c30075e3;
+  --btn-hover-color: #dd0085;
+  --search-btn-shadow-color: #8ba2c67c;
+  --body-background-color: #475c7e7a;
+  --body-border-color: #591eade3;
+  --state-icon-background-color: #ffc107e8;
+  --state-icon-border-color: #9b7400db;
+}
