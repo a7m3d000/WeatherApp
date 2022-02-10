@@ -24,7 +24,7 @@ function WeatherApp({ posts }) {
           name="keywords"
           content="weather, nextjs, reactjs, javascript, css, html"
         />
-        <meta name="theme-color" content="#dd0085" />
+        <meta name="theme-color" content="#6c02c3" />
 
         <link rel="icon" href="./tab-icon.png" type="image/x-icon" />
       </Head>
