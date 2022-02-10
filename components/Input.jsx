@@ -21,7 +21,7 @@ function Input({ onInput }) {
 
       <style jsx>{`
         input {
-          height: 45px;
+          height: 50px;
           border-radius: 10px;
           color: var(--input-color);
           font-weight: 500;
@@ -36,7 +36,7 @@ function Input({ onInput }) {
         }
 
         input:focus {
-          box-shadow: 0 0 0 0.25rem var(--input-shadow-color);
+          box-shadow: 0 0 0 0.28rem var(--input-shadow-color);
         }
 
         input::placeholder {
