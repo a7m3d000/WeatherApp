@@ -9,7 +9,7 @@ function Body({ weatherData }) {
   const { name: cityName } = weatherData;
   const { country: countryName } = weatherData.sys;
 
-  // API End point for Weather Data
+  // Image Src
   const src = weatherData.error
     ? "/error-icon.png"
     : weatherData.weather[0].icon === "none"
@@ -24,15 +24,6 @@ function Body({ weatherData }) {
           <span className="badge bg-info text-dark">{countryName}</span>
         </div>
         <div className="ms-auto d-flex align-items-center flex-column w-state">
-          {/* <div className="img">
-            <Image
-              loader={() => src}
-              src={src}
-              alt="Weather State Icon"
-              width={120}
-              height={120}
-            />
-          </div> */}
           <img src={src} alt="" className="img" />
           <h4 className="text-light">{cityState}</h4>
         </div>
