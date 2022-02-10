@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Body({ weatherData }) {
   // Destructring Props
@@ -16,7 +17,8 @@ function Body({ weatherData }) {
           <span className="badge bg-info text-dark">{countryName}</span>
         </div>
         <div className="ms-auto d-flex align-items-center flex-column w-state">
-          <img
+          <Image
+            className="img"
             src={
               weatherData.error
                 ? "./error-icon.png"
@@ -71,7 +73,7 @@ function Body({ weatherData }) {
           font-weight: bold;
         }
 
-        .w-state img {
+        .w-state .img {
           max-width: 130px;
           max-height: 130px;
           margin-top: 20px;
@@ -83,7 +85,7 @@ function Body({ weatherData }) {
         }
 
         @media (max-width: 374px) {
-          .w-state img {
+          .w-state .img {
             max-width: 75px;
             max-height: 75px;
           }
