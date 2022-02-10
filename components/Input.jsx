@@ -53,6 +53,7 @@ function Input({ onInput }) {
           border: 4px solid var(--search-btn-border-color);
           background-color: var(--search-btn-background-color);
           border-radius: 12px;
+          transition: 0.5s;
         }
 
         button:hover {
