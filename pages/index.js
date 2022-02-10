@@ -27,6 +27,12 @@ function WeatherApp({ posts }) {
         <meta name="theme-color" content="#6c02c3" />
 
         <link rel="icon" href="./tab-icon.png" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <div className="app">
         <div className="container">
