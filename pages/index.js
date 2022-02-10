@@ -28,7 +28,7 @@ function WeatherApp({ posts }) {
 
         <link rel="icon" href="./tab-icon.png" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap"
           rel="stylesheet"
