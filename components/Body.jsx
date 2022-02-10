@@ -9,6 +9,13 @@ function Body({ weatherData }) {
   const { name: cityName } = weatherData;
   const { country: countryName } = weatherData.sys;
 
+  // API End point for Weather Data
+  const src = weatherData.error
+    ? "/error-icon.png"
+    : weatherData.weather[0].icon === "none"
+    ? "/state-icon.png"
+    : `http://openweathermap.org/img/wn/${icon}@2x.png`;
+
   return (
     <div className="body d-flex flex-column gap-3">
       <div className="info hstack gap-5">
@@ -19,13 +26,8 @@ function Body({ weatherData }) {
         <div className="ms-auto d-flex align-items-center flex-column w-state">
           <div className="img">
             <Image
-              src={
-                weatherData.error
-                  ? "/error-icon.png"
-                  : weatherData.weather[0].icon === "none"
-                  ? "/state-icon.png"
-                  : `http://openweathermap.org/img/wn/${icon}@2x.png`
-              }
+              loader={() => src}
+              src={src}
               alt="Weather State Icon"
               width={120}
               height={120}
