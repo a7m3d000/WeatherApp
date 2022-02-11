@@ -8,7 +8,8 @@ Lauages That uset in this App:
 ![CSS](https://img.icons8.com/color/48/000000/css3.png)
 ![javascript](https://img.icons8.com/color/48/000000/javascript--v2.png)
 
-![fa-crown](fa-crown.svg)
+<img src="fa-crown.svg" width="50" height="50">
+
 
 Technolohies that used in this App:
   - Next JS
