@@ -39,7 +39,4 @@ This App use Weather **API** from [**Open Weather Map**](https://openweathermap.
 </div>
 
 
-
-
-
-
+<img src="https://axios-http.com/assets/logo.svg" alt="drawing" width="48" height="48"/>
