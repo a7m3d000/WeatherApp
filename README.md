@@ -10,6 +10,7 @@ Lauages That uset in this App:
 
 
 Technolohiesthat used in this App:
+
 <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="drawing" width="48" height="48"/>
 <img src="https://axios-http.com/assets/logo.svg" alt="drawing" width="48" height="48"/>
 
