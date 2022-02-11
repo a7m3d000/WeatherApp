@@ -50,7 +50,7 @@ function Input({ onInput }) {
           background-color: var(--search-btn-background-color);
           color: #fff;
           font-weight: 500;
-          border: 4px solid var(--search-btn-border-color);
+          border: 5px solid var(--search-btn-border-color);
           background-color: var(--search-btn-background-color);
           border-radius: 12px;
           transition: 0.5s;
