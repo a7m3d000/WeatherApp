@@ -9,10 +9,10 @@ Lauages That uset in this App:
 ![javascript](https://img.icons8.com/color/48/000000/javascript--v2.png)
 
 
+Technolohiesthat used in this App:
+<img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="drawing" width="48" height="48"/>
+<img src="https://axios-http.com/assets/logo.svg" alt="drawing" width="48" height="48"/>
 
-Technolohies that used in this App:
-<div style="backgorund-color: red;" width="48" height="48">
-<img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="drawing" style="width: 100%; height: 100%;"/></div>
-  - Next JS
-  - Axios Library
+
+
 
