@@ -12,6 +12,7 @@ Lauages That uset in this App:
 
 
 Technolohies that used in this App:
+![Next JS](https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png)
   - Next JS
   - Axios Library
 
