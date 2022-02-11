@@ -81,14 +81,37 @@ function Body({ weatherData }) {
           border: 5px solid var(--state-icon-border-color) !important;
         }
 
-        @media (max-width: 374px) {
+        @media (max-width: 425px) {
+          .info-heading h1 {
+            font-size: 2.2rem;
+          }
+        }
+
+        @media (max-width: 375px) {
           .w-state .img {
-            max-width: 75px;
-            max-height: 75px;
+            max-width: 80px;
+            max-height: 80px;
           }
 
           .w-state h4 {
             font-size: 0.93rem;
+          }
+        }
+
+        @media (max-width: 320px) {
+          .w-state .img {
+            max-width: 60px;
+            max-height: 60px;
+            transform: translateX(-10px);
+          }
+
+          .w-state h4 {
+            font-size: 0.65rem;
+            transform: translateX(-10px);
+          }
+
+          .info-heading h1 {
+            font-size: 1.8rem;
           }
         }
 
