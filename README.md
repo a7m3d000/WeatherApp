@@ -11,8 +11,10 @@ Lauages That uset in this App:
 
 Technolohiesthat used in this App:
 
-<span><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="drawing" width="48" height="48"/></span>
+<div> style="display: flex; justify-content: center; align-items: center; gap: 5px;"
+  <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="drawing" width="48" height="48"/>
 <img src="https://axios-http.com/assets/logo.svg" alt="drawing" width="48" height="48"/>
+</div>
 
 
 
