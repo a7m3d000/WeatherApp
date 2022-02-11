@@ -6,7 +6,7 @@ Lauages That uset in this App:
  - HTML
  - CSS
  - JavaScript
- - ![javascript](https://cdn-icons-png.flaticon.com/20/20/5968292.png)
+ - ![javascript](https://img.icons8.com/color/48/000000/javascript--v2.png)
 
 Technolohies that used in this App:
   - Next JS
