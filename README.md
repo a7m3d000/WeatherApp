@@ -12,8 +12,8 @@ Lauages That uset in this App:
 
 Technolohies that used in this App:
 <!-- ![Next JS](https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png){width: "40", height="40" } -->
-<div style="backgorund-color: red;">
-<img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="drawing" width="48" height="48"/></div>
+<div style="backgorund-color: red;" width="48" height="48>
+<img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="drawing" " style="width: 100%; height: 100%;"/></div>
   - Next JS
   - Axios Library
 
