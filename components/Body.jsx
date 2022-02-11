@@ -18,7 +18,7 @@ function Body({ weatherData }) {
 
   return (
     <div className="body d-flex flex-column gap-3">
-      <div className="info hstack gap-5">
+      <div className="info hstack gap-4">
         <div className="info-heading">
           <h1 className="text-light">{cityName}</h1>
           <span className="badge bg-info text-dark">{countryName}</span>
@@ -63,6 +63,7 @@ function Body({ weatherData }) {
           font-weight: bold;
           font-size: 2.5rem;
           padding-top: 10px;
+          word-wrap: break-word !important;
         }
 
         .temp h3 {
@@ -102,12 +103,10 @@ function Body({ weatherData }) {
           .w-state .img {
             max-width: 60px;
             max-height: 60px;
-            transform: translateX(-10px);
           }
 
           .w-state h4 {
             font-size: 0.65rem;
-            transform: translateX(-10px);
           }
 
           .info-heading h1 {
