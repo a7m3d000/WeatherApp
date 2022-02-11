@@ -1,12 +1,13 @@
 # Weather App
 
-## Getting Started
+By this **Web App** You can get the weather info by just type your Region or city.
 
-First, run the development server:
+Lauages That uset in this App:
+ - HTML
+ - CSS
+ - JavaScript
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Technolohies that used in this App:
+  - Next JS
+  - Axios Library
 
