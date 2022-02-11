@@ -2,6 +2,8 @@
 
 By this [**Web App**](https://weather-app-beige-nine.vercel.app/) You can get the weather info by just type your Region or city.
 
+-----
+
 # Discreption
 This is a weather App that show you Your Region Informations:
   - Weather State
@@ -12,10 +14,14 @@ This is a weather App that show you Your Region Informations:
 
 This App use Weather **API** from [**Open Weather Map**](https://openweathermap.org/) that contains weather information for the city name.
 
+-----
+
 # App Features
   - Reponsive
   - Nice Design with Bootstrap Framework
   - Speed & Good Performance
+
+-----
 
 ## Lauages That uset in this App:
 
