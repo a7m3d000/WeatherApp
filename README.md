@@ -10,6 +10,7 @@ This is a weather App that show you Your Region Informations:
   - Max Tempreture
   - Wind Speed
 
+This App use Weather **API** from [**Open Weather Map**](https://openweathermap.org/)
 
 ## Lauages That uset in this App:
 
