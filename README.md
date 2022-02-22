@@ -42,5 +42,5 @@ This App use Weather **API** from [**Open Weather Map**](https://openweathermap.
 
 -----
 
-# App Picture
+# App Screenshot
 ![Weather App Image](https://github.com/a7m3d000/WeatherApp/blob/main/public/website.png?raw=true)
